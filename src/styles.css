@@ -1,0 +1,139 @@
+body {
+  font-family: "Patrick Hand", cursive;
+  padding-top: 10px;
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    225deg,
+    #4158d0 0%,
+    #c850c0 22%,
+    #ffcc70 49%,
+    #ffffff 75%,
+    #ffffff 100%
+  );
+}
+.header {
+  margin: 20px auto;
+  text-align: center;
+}
+
+form {
+  margin: 20px auto;
+}
+
+h1,
+h2,
+p {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  color: #383e56;
+  font-weight: bold;
+  position: relative;
+  line-height: 60px;
+}
+h2 {
+  color: #cf7500;
+  font-weight: bold;
+  position: relative;
+  line-height: 60px;
+}
+p {
+  color: #e11d74;
+  font-size: 26px;
+  font-weight: 900;
+  position: relative;
+}
+
+.time {
+  color: #1a1c20;
+}
+
+.City {
+  position: relative;
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+}
+
+.hightemp {
+  color: #dd2c00;
+  position: relative;
+}
+.lowtemp {
+  color: #ff5722;
+  position: relative;
+  font-size: 22px;
+}
+.container {
+  text-align: center;
+}
+.Sunny {
+  width: 60px;
+  height: 60px;
+  position: relative;
+}
+.bigsuncloud {
+  width: 60px;
+  height: 60px;
+  position: relative;
+}
+
+.mostcloudy {
+  width: 60px;
+  height: 60px;
+  position: relative;
+}
+
+.cloudy {
+  width: 60px;
+  height: 60px;
+  position: relative;
+}
+
+.container {
+  padding-bottom: 100px;
+}
+.future {
+  color: #31112c;
+  font-weight: bold;
+  font-size: 26px;
+  position: relative;
+}
+.description {
+  color: #5d54a4;
+  font-size: 22px;
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.temp {
+  color: #7d0633;
+  opacity: 75%;
+  line-height: 22px;
+}
+.low-temp {
+  color: #006a71;
+  font-size: 20px;
+}
+.grid {
+  border: 5px solid;
+}
+
+.temperature,
+.celsius-link,
+.fahrenheit-link,
+.units {
+  display: block;
+  margin: auto;
+  text-align: center;
+  color: #440047;
+  font-size: 26px;
+  font-weight: 900;
+  position: relative;
+}
+.btn-btn-success {
+  color: blueviolet;
+  position: relative;
+  margin: 0px auto 20px;
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/a519eed081.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="src/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="header">
+            <img src="/images/Sun-cloud.png" class="Sunbehindlargecloud" />
+            <h1 id="Main-city"></h1>
+            <h2>Friday 4th Sept <span class="time">16:23</span></h2>
+            <p id="Description1"></p>
+            <div class="hightemp" id="temperature">°C</div>
+            <div class="lowtemp">°C</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <form id="search-form">
+            <input
+              type="text"
+              placeholder=" Search city 🔍"
+              class="City"
+              autofocus="on"
+              id="text-result"
+            />
+            <input type="submit" value="Search" />
+          </form>
+          <button id="current-loc-btn" class="btn-btn-success">
+            Current Location
+          </button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <h4 class="future">Sat 5th Sept</h4>
+
+          <p class="description">Sunny</p>
+          <br />
+          <img src="images/Sun.png" alt=" Sunny" class="Sunny" />
+
+          <p class="temp">
+            18°C <br />
+            <span class="low-temp">9°C</span>
+          </p>
+        </div>
+
+        <div class="col">
+          <h4 class="future">Sun 6th Sept</h4>
+
+          <p class="description">Mostly cloudy</p>
+          <br />
+          <img src="images/Sun-cloud.png" alt="mostcloudy" class="mostcloudy" />
+          <p class="temp">
+            19°C <br />
+            <span class="low-temp">11°C</span>
+          </p>
+        </div>
+
+        <div class="col">
+          <h4 class="future">Mon 7th Sept</h4>
+          <p class="description">Sunny intervals</p>
+          <br />
+          <img
+            src="images/white-sun-cloud.png"
+            alt="bigsuncloud"
+            class="bigsuncloud"
+          />
+          <p class="temp">
+            21°C <br />
+            <span class="low-temp">15°C</span>
+          </p>
+        </div>
+
+        <div class="col">
+          <h4 class="future">Tues 8th Sept</h4>
+
+          <p class="description">Cloudy</p>
+          <br />
+          <img src="images/cloud.png" alt="cloudy" class="cloudy" />
+
+          <p class="temp">
+            23°C <br />
+            <span class="low-temp">15°C</span>
+          </p>
+        </div>
+
+        <div class="col">
+          <h4 class="future">Wed 8th Sept</h4>
+
+          <p class="description">Sunny intervals</p>
+          <br /><img
+            src="images/white-sun-cloud.png"
+            alt="bigsuncloud"
+            class="bigsuncloud"
+          />
+          <p class="temp">
+            22°C <br />
+            <span class="low-temp">12°C</span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="src/app.js"></script>
+  </body>
+</html>

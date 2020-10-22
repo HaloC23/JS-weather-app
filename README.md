@@ -1,2 +1,2 @@
-# New-weather-app
+# Weather-app
 Created with CodeSandbox
