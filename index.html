@@ -16,7 +16,7 @@
     ></script>
     <link rel="stylesheet" href="src/styles.css" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap"
       rel="stylesheet"
     />
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
@@ -26,7 +26,9 @@
       <div class="row">
         <div class="col">
           <div class="header">
-            <i class="fas fa-cloud-sun"></i>
+            <span style="font-size: 80px; color: #ffa8a8;">
+              <i class="fas fa-cloud-sun"></i>
+            </span>
             <h1 id="Main-city"></h1>
             <h2>Friday 4th Sept <span class="time">16:23</span></h2>
             <p id="Description1"></p>
@@ -40,12 +42,17 @@
           <form id="search-form">
             <input
               type="text"
-              placeholder=" Search city 🔍"
+              placeholder=" Search city...."
               class="City"
               autofocus="on"
               id="text-result"
             />
-            <input type="submit" value="Search" />
+            <input
+              type="submit"
+              value="Search"
+              id="searchbtn"
+              class="search-b"
+            />
           </form>
           <button id="current-loc-btn" class="btn-btn-success">
             Current Location
@@ -59,8 +66,9 @@
 
           <p class="description">Sunny</p>
           <br />
-          <i class="fas fa-sun"></i>
-
+          <span style="font-size: 60px; color: #ff9642; opacity: 90%;">
+            <i class="fas fa-sun"></i>
+          </span>
           <p class="temp">
             18°C <br />
             <span class="low-temp">9°C</span>
@@ -72,7 +80,9 @@
 
           <p class="description">Mostly cloudy</p>
           <br />
-          <i class="fas fa-cloud"></i>
+          <span style="font-size: 60px; color: #ff9642; opacity: 90%;">
+            <i class="fas fa-cloud"></i>
+          </span>
           <p class="temp">
             19°C <br />
             <span class="low-temp">11°C</span>
@@ -83,7 +93,9 @@
           <h4 class="future">Mon 7th Sept</h4>
           <p class="description">Sunny intervals</p>
           <br />
-          <i class="fas fa-cloud-sun"></i>
+          <span style="font-size: 60px; color: #ff9642; opacity: 90%;">
+            <i class="fas fa-cloud-sun"></i>
+          </span>
           <p class="temp">
             21°C <br />
             <span class="low-temp">15°C</span>
@@ -95,8 +107,9 @@
 
           <p class="description">Cloudy</p>
           <br />
-          <i class="fas fa-cloud"></i>
-
+          <span style="font-size: 60px; color: #ff9642; opacity: 90%;">
+            <i class="fas fa-cloud"></i>
+          </span>
           <p class="temp">
             23°C <br />
             <span class="low-temp">15°C</span>
@@ -108,7 +121,9 @@
 
           <p class="description">Sunny intervals</p>
           <br />
-          <i class="fas fa-cloud-sun"></i>
+          <span style="font-size: 60px; color: #ff9642; opacity: 90%;">
+            <i class="fas fa-cloud-sun"></i>
+          </span>
           <p class="temp">
             22°C <br />
             <span class="low-temp">12°C</span>
