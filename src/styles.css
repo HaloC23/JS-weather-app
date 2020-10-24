@@ -1,15 +1,7 @@
 body {
   font-family: "Patrick Hand", cursive;
   padding-top: 10px;
-  background-color: #4158d0;
-  background-image: linear-gradient(
-    225deg,
-    #4158d0 0%,
-    #c850c0 22%,
-    #ffcc70 49%,
-    #ffffff 75%,
-    #ffffff 100%
-  );
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
 }
 .header {
   margin: 20px auto;
@@ -46,7 +38,22 @@ p {
   font-weight: 900;
   position: relative;
 }
-
+.fa-cloud-sun {
+  font-size: 100px;
+  color: grey;
+}
+.fa-sun {
+  color: yellow;
+  font-size: 50px;
+}
+.fa-cloud {
+  color: yellow;
+  font-size: 50px;
+}
+.fa-cloud-sun {
+  color: yellow;
+  font-size: 50px;
+}
 .time {
   color: #1a1c20;
 }
@@ -67,28 +74,6 @@ p {
 }
 .container {
   text-align: center;
-}
-.Sunny {
-  width: 60px;
-  height: 60px;
-  position: relative;
-}
-.bigsuncloud {
-  width: 60px;
-  height: 60px;
-  position: relative;
-}
-
-.mostcloudy {
-  width: 60px;
-  height: 60px;
-  position: relative;
-}
-
-.cloudy {
-  width: 60px;
-  height: 60px;
-  position: relative;
 }
 
 .container {
