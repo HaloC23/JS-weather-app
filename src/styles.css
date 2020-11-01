@@ -135,6 +135,12 @@ p {
   position: relative;
 }
 
-.opensource {
+.source {
   color: black;
+  display: block;
+}
+
+.weatherborder {
+  max-width: 1000px;
+  margin: 30px auto;
 }
