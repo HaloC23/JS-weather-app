@@ -134,3 +134,7 @@ p {
   font-weight: 900;
   position: relative;
 }
+
+.opensource {
+  color: black;
+}
