@@ -1,5 +1,5 @@
 body {
-  font-family: "Patrick Hand", cursive;
+  font-family: "Tenor Sans", sans-serif;
   padding-top: 10px;
   background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
 }
@@ -21,84 +21,101 @@ p {
 }
 
 h1 {
-  color: #383e56;
+  color: #ffe5ab;
   font-weight: bold;
   position: relative;
   line-height: 60px;
 }
 h2 {
-  color: #cf7500;
+  color: #fcf876;
   font-weight: bold;
   position: relative;
   line-height: 60px;
 }
 p {
-  color: #e11d74;
+  color: #ff9642;
   font-size: 26px;
   font-weight: 900;
   position: relative;
 }
-.fa-cloud-sun {
-  font-size: 100px;
-  color: grey;
-}
-.fa-sun {
-  color: yellow;
-  font-size: 50px;
-}
-.fa-cloud {
-  color: yellow;
-  font-size: 50px;
-}
-.fa-cloud-sun {
-  color: yellow;
-  font-size: 50px;
-}
+
 .time {
   color: #1a1c20;
 }
 
 .City {
   position: relative;
-  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  background-color: #ffe2e2;
+  padding: 5px;
+  border-color: #440047;
+}
+.btn-btn-success {
+  font-weight: bold;
+  color: #263238;
+  background-color: #ffa726;
+  position: relative;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  padding: 4px 7px;
+  transition: all 200ms ease;
+}
+.btn-btn-success:hover {
+  background-color: #fe7171;
+  color: #ffecb3;
+}
+.search-b {
+  font-weight: bold;
+  color: #263238;
+  background-color: #ffa726;
+  border-radius: 10px;
+  padding: 4px 7px;
+  margin-left: 10px;
+}
+.search-b:hover {
+  background-color: #fe7171;
+  transition: all 200ms ease;
+  color: #ffecb3;
 }
 
 .hightemp {
-  color: #dd2c00;
-  position: relative;
-}
-.lowtemp {
-  color: #ff5722;
+  color: #cffffe;
   position: relative;
   font-size: 22px;
+  font-weight: bold;
+}
+
+.lowtemp {
+  color: #eeeeee;
+  position: relative;
+  font-size: 16px;
 }
 .container {
   text-align: center;
-}
 
-.container {
   padding-bottom: 100px;
 }
 .future {
-  color: #31112c;
+  color: #ffe5ad;
   font-weight: bold;
   font-size: 26px;
   position: relative;
 }
+
 .description {
-  color: #5d54a4;
+  color: #132743;
   font-size: 22px;
   position: relative;
   padding-top: 10px;
   padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 .temp {
-  color: #7d0633;
-  opacity: 75%;
+  color: #52575d;
   line-height: 22px;
+  font-size: 22px;
 }
 .low-temp {
-  color: #006a71;
+  color: 52575d;
   font-size: 20px;
 }
 .grid {
@@ -116,14 +133,4 @@ p {
   font-size: 26px;
   font-weight: 900;
   position: relative;
-}
-.btn-btn-success {
-  color: blueviolet;
-  position: relative;
-  margin: 0px auto 20px;
-}
-.open-source {
-  position: relative;
-  top: 100px;
-  color: black;
 }
