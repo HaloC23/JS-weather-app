@@ -83,7 +83,12 @@ p {
   font-size: 22px;
   font-weight: bold;
 }
-
+.degreeSym {
+  color: #eeeeee;
+  position: relative;
+  bottom: 08px;
+  font-size: 12px;
+}
 .lowtemp {
   color: #eeeeee;
   position: relative;
