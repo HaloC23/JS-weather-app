@@ -31,13 +31,14 @@ function displayWeather(response) {
   document.querySelector("#Description1").innerHTML =
     response.data.weather[0].main;
 
-    document
-    .querySelector (#icon)
-    .setAttribute (
-      "src"
+  document
+    .querySelector("#icon")
+    .setAttribute(
+      "src",
       `https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
     );
 }
+
 function searchCity(city) {
   let apiKey = "497664da1cdbad13c19c918f6082e23d";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
