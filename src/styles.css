@@ -149,3 +149,11 @@ p {
   max-width: 1000px;
   margin: 30px auto;
 }
+
+.header .degreeSym {
+  color: white;
+  cursor: default;
+}
+.header .degreeSym:hover {
+  text-decoration: none;
+}
