@@ -115,13 +115,13 @@ p {
   margin-bottom: 10px;
 }
 .temp {
-  color: #52575d;
-  line-height: 22px;
-  font-size: 22px;
+  color: #fca3cc;
+  line-height: 20px;
+  font-size: 18px;
 }
 .low-temp {
-  color: 52575d;
-  font-size: 20px;
+  color: #bce6eb;
+  font-size: 16px;
 }
 .grid {
   border: 5px solid;
